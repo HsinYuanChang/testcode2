@@ -21,7 +21,7 @@ const txb = new bitcoin.TransactionBuilder(regtest);
 
 
 //用listunspent 取出最後一筆資料的txid
-txb.addInput('c3acac43c6f0e83538fb5c82ed01379349f5dccf43a8af7bb5d8f0c60fb1fcfc', 0);
+txb.addInput('2061b2745ff4ab3404326505d3c20ec9b9a762cf6a763c96d2882a2203cf2dfe', 0);
 
 //用getnewaddress取得新的位址
 txb.addOutput('2N1MXUQjvU6ZkEfJ9uCAVvZed33s9pk8njM', 12)
